@@ -61,7 +61,7 @@ inputs:
         is_expand: true
         is_required: true
         is_sensitive: false
-    - release_status:
+    - release_status: "true"
       opts:
         title: "Mark Release as Completed"
         summary: "Specify whether to mark the Jira release as completed."
