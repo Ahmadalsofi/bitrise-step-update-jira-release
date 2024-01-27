@@ -62,8 +62,6 @@ inputs:
         is_required: true
         is_sensitive: false
     - release_status:
-        type: bool
-        default: false
       opts:
         title: "Mark Release as Completed"
         summary: "Specify whether to mark the Jira release as completed."
@@ -72,6 +70,9 @@ inputs:
         is_expand: true
         is_required: true
         is_sensitive: false
+        value_options:
+        - "true"
+        - "false"
     - release_date: ""
       opts:
         title: "Release Date (Optional)"
