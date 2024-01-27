@@ -6,7 +6,7 @@ app:
   - BITRISE_STEP_ID: update-jira-release
   - BITRISE_STEP_VERSION: "0.0.1"
   - BITRISE_STEP_GIT_CLONE_URL: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release.git
-  - MY_STEPLIB_REPO_FORK_GIT_URL: https://github.com/Ahmadalsofi/bitrise-steplib
+  - MY_STEPLIB_REPO_FORK_GIT_URL: https://github.com/Ahmadalsofi/bitrise-steplib.git
 
 workflows:
   test:
