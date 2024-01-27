@@ -8,6 +8,10 @@ website: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release
 source_code_url: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release
 support_url: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release/issues
 
+host_os_tags:
+  - osx-10.10
+  - ubuntu-16.04
+
 type_tags:
   - utility
 
