@@ -3,9 +3,9 @@ default_step_lib_source: https://github.com/bitrise-io/bitrise-steplib.git
 
 app:
   envs:
-  - BITRISE_STEP_ID: update-jira-release
+  - BITRISE_STEP_ID: update-jira-release-status
   - BITRISE_STEP_VERSION: "0.0.1"
-  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release.git
+  - BITRISE_STEP_GIT_CLONE_URL: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release-status.git
   - MY_STEPLIB_REPO_FORK_GIT_URL: https://github.com/Ahmadalsofi/bitrise-steplib.git
 
 workflows:
