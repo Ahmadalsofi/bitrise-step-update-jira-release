@@ -1,16 +1,12 @@
 title: |-
-  Jira Release Status Update
+  Update Jira Release Status
 summary: |-
   Updates the release status in Jira, marking it for release. The step includes the option to set the release as a draft.
 description: |-
   This step automates Jira release management by updating the release status. It allows seamless marking of a release for deployment, with an optional draft setting. Ensure your Jira instance details, release ID, authentication token, and other necessary inputs are correctly configured for smooth integration with your CI/CD workflows.
-website: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release
-source_code_url: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release
-support_url: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release/issues
-
-host_os_tags:
-  - osx-10.10
-  - ubuntu-16.04
+website: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release-status
+source_code_url: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release-status
+support_url: https://github.com/Ahmadalsofi/bitrise-step-update-jira-release-status/issues
 
 type_tags:
   - utility
