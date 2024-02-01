@@ -1,4 +1,4 @@
-# Jira Release Status Update
+# Update Jira Release Status
 
 This step automates Jira release management by updating the release status. It allows seamless marking of a release for deployment, with an optional draft setting. Ensure your Jira instance details, release ID, authentication token, and other necessary inputs are correctly configured for smooth integration with your CI/CD workflows.
 
